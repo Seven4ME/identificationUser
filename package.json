@@ -8,8 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "date-and-time": "^0.6.2",
     "request-promise": "^4.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "date-and-time": "^0.6.2"
+  },
   "description": ""
 }
