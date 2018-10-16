@@ -33,7 +33,7 @@ setInterval(function () {
     request(options)
         .then(function (response) {
             var tokenKey = response,
-            now = new Date(),
+            now = new Date();
             nowDate = date.format(now, 'YYYY/MM/DD HH:mm:ss');
             console.log(nowDate + ' ' + 'Starting to create new session '  + tokenKey.token);
         })
