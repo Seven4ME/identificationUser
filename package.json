@@ -12,7 +12,8 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "date-and-time": "^0.6.2"
+    "date-and-time": "^0.6.2",
+    "express": "^4.16.4"
   },
   "description": ""
 }
