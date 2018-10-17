@@ -1,2 +1,2 @@
-const privateKey = require('./api/privateKey.js');
+const getPrivateKey = require('./api/getPrivateKey.js');
 

@@ -1,8 +1,11 @@
 const express = require('express');
+const index = require('../index.js');
 
 var app = express();
 
 app.set('port',process.env.PORT || 3000);
+
+
 
 app.use(function(req,res){
     res.type('text/plain');
@@ -19,3 +22,4 @@ app.use(function(req,res){
 app.listen(app.get('port'),function(){
     console.log('Express is started on port'+ ' ' + app.get('port'));
 });
+
